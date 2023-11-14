@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js",
+    "build": "react-scripts build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -29,7 +30,8 @@
     "mongoose": "^7.0.3",
     "mqtt": "^4.3.7",
     "nodemailer": "^6.9.5",
-    "pug": "^3.0.2"
+    "pug": "^3.0.2",
+    "react-scripts": "^5.0.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
